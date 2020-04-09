@@ -8,7 +8,7 @@ To run it on a Raspberry Pi do the following:
 1. rename `Dockerfile` into something else
 2. rename `Dockerfile_rpi` into simply `Dockerfile`
 #### General config:
-1. create a conf.ini file based on conf.ini.template with your Google Maps API key inside 
+1. create a `conf.ini` file based on `conf.ini.template` with your Google Maps API key inside 
 
 ### Build:
 To build the container use `docker build -t hotels_transit:latest .`
