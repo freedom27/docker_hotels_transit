@@ -1,0 +1,5 @@
+[gmaps]
+api_key = XXX
+
+[cache]
+cache_dir = cache/
