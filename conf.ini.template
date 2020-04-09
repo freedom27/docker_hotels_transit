@@ -1,5 +1,6 @@
 [gmaps]
 api_key = XXX
 
+# do not change the configuration below
 [cache]
-cache_dir = cache/
+cache_dir = /app/cache/
