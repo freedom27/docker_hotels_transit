@@ -1,7 +1,5 @@
 FROM resin/raspberrypi3-alpine-python:3.6.1
 MAINTAINER Stefano Vettor "freedom2099@gmail.com"
-RUN apt-get update -y
-RUN apt-get install -y python3-pip python3-dev build-essential git
 COPY . /app
 WORKDIR /app
 RUN mkdir cache
